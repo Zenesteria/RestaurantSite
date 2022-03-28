@@ -5,7 +5,7 @@ const BannerData = Banners.banners[1]
 
 export default function BannerSecondary (){
     return(
-        <div className="flex w-full h-fit min-h-[50vh] bg-[#f4f2ed] items-center justify-center my-10">
+        <div className="flex w-full h-fit min-h-[50vh] bg-[#f4f2ed] items-center justify-center mt-10">
             <div className="flex w-[80%] h-fit min-h-[50vh] flex-wrap">
                 <div className="flex flex-col min-w-[330px] flex-[0.5] p-10  h-[50vh]">
                     <h1 className="text-[2.5rem] font-bold mb-4">{BannerData.title}</h1>

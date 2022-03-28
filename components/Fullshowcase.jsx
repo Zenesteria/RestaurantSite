@@ -8,8 +8,8 @@ export default function Showcase() {
                 <h1 className="text-[3rem]">{ShowcaseData.title}</h1>
                 <p className="max-w-[400px] text-[1.2rem]">{ShowcaseData.caption}</p>
 
-                <form className="flex flex-col w-full h-full">
-                    <RegInput Name="Promotional Code"/>
+                <form className="flex flex-col w-full h-full text-black">
+                    <RegInput Name="Promotional Code" val={ShowcaseData.RegForm.promoCode}/>
                     <RegInput Name="Promotional Code"/>
                     <RegInput Name="Promotional Code"/>
                     <RegInput Name="Promotional Code"/>
@@ -24,6 +24,6 @@ export default function Showcase() {
 
 const RegInput = (props) => {
     return(
-        <input className="bg-white w-full h-[13%] rounded-sm my-2 p-2" type="text" placeholder={props.Name} />
+        <input className="bg-white w-full h-[13%] rounded-sm my-2 p-2" type="text" placeholder={props.Name}  value={props.val}/>
     )
 }

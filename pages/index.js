@@ -6,6 +6,9 @@ import SubShowcase from '../components/SubShowcase'
 import Banner from '../components/Banner'
 import FeaturedShowcase from '../components/FeaturedShowcase'
 import BannerSecondary from '../components/BannerSecondary'
+import Carousel from '../components/Carousel'
+import Feedback from '../components/CustomerFeedback'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -23,6 +26,9 @@ export default function Home() {
       <Banner/>
       <FeaturedShowcase/>
       <BannerSecondary/>
+      <Carousel/>
+      <Feedback/>
+      <Footer/>
     </div>
   )
 }

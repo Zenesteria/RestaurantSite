@@ -141,6 +141,48 @@ const FeaturedShowcaseData = {
     ]
 }
 
+const CarouselData = {
+    title:"Let's do lunch./ And breakfast.",
+    caption:"Heck, snacks too. Add Market items to your basket for feel-good deliciousness, any time of day.",
+    images:[
+        "url('/images/mainbackdrop.jpg')",
+        "url('/images/bannerslide1.jpg')",
+        "url('/images/bannerslide2.jpg')",
+
+    ]
+}
+
+const CustomerFeedbackData = {
+    title: 'Customers Sunbasket',
+    feedback: [
+        {
+            feedback_id: 1,
+            feedback_msg: 'Our family is so happy looking forward to cooking and eating together every night. Sunbasket has been a complete life saver and joy maker for us!',
+            feedback_author: "Teresa",
+            feedback_loc: "Lake Worth, FL"
+        },
+        {
+            feedback_id: 1,
+            feedback_msg: "Thank you SO MUCH for your delicious healthy meals. I am losing weight, I feel good and during this pandemic I am thrilled to receive nutritious meals. I don't have to worry about shopping and I have learned to cook better by following your recipes.",
+            feedback_author: "Corinn",
+            feedback_loc: "Monrovia, CA"
+        },
+        {
+            feedback_id: 1,
+            feedback_msg: "This is night 3 of making your meals and we are literally floored. Everything has been so fresh and flavorful and the directions are set out perfect. My girlfriend, who has done multiple pre-prepped food deliveries, said this by far is her favorite.",
+            feedback_author: "Matt",
+            feedback_loc: "Chicago, TX"
+        },
+    ]
+}
+
+const FooterData = [
+    "Some exclusions may apply",
+    "© 2022 Sunbasket Version 4.85.3 | Terms | Privacy | Accessibility | Security",
+    "This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply."
+]
 
 
-export {ShowcaseData, SubShowcaseData, Banners, slidercontentdata, FeaturedShowcaseData}
+
+
+export {ShowcaseData, SubShowcaseData, Banners, slidercontentdata, FeaturedShowcaseData, CarouselData, CustomerFeedbackData, FooterData}
